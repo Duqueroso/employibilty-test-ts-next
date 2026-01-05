@@ -40,9 +40,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
       </h2>
 
       <nav style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-        {items.map((item, index) => (
+        {items.map((item) => (
           <div
-            key={index}
+            key={item.label}
             style={{
               padding: "10px 12px",
               borderRadius: "8px",
